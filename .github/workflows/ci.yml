@@ -51,6 +51,7 @@ jobs:
       uses: actions/checkout@v4
       with:
         repository: bl-sdk/pyunrealsdk
+        ref: v1.8.0
         path: pyunrealsdk
         sparse-checkout: |
           stubs
